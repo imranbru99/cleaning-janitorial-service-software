@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/screenshots/dashboard.svg" alt="Cleaning &amp; Janitorial Software dashboard preview" width="100%"/>
+  <img src="docs/screenshots/dashboard.svg" alt="Cleaning &amp; Janitorial Software preview" width="100%"/>
 </p>
 
-<h1 align="center">Cleaning & Janitorial Software</h1>
+# Cleaning & Janitorial Software
 
 <p align="center"><strong>Scheduling, quality checks and field operations</strong></p>
 
@@ -16,58 +16,103 @@
 
 ## Overview
 
-**Cleaning & Janitorial Software** is a complete business application focused on real operational workflows. This README lists the full feature surface so GitHub visitors and search engines can understand every capability of the product.
+**Cleaning & Janitorial Software** — Scheduling, quality checks and field operations.
 
-## Product preview
+This README documents the **real application features** so GitHub and Google visitors can understand what the product does.
+
+## Product screenshots
 
 | Dashboard | Operations |
 | :---: | :---: |
 | ![Dashboard](docs/screenshots/dashboard.svg) | ![Operations](docs/screenshots/operations.svg) |
 
-## Complete feature list
+## Application features
 
-### Product modules & capabilities
+### Cleaning & janitorial operations
 
-- Cleaning and Janitorial Service Management Platform
-- Complete Enterprise Business Operating System
-- DevOps Engineer
-- Security Engineer
-- AI Integration Engineer
-- QA Automation Engineer
-- Cleaning and Janitorial Service Management
-- Bookings
-- Invoices
-- Payments
-- Contracts
-- Attendance devices
-- Inventory
-- Advanced reporting
-- AI analytics
+- Customer / site / contract CRM
+- Service catalog (residential, commercial, specialized cleaning)
+- Bookings & recurring schedules
+- Advanced dispatch and route-friendly job assignment
+- Cleaning job execution with checklists and time logs
+- Quality inspections, scoring and corrective actions
+- Employee, skills, shifts and attendance (device-ready)
+- Quotations, invoicing, payments and expenses
+- Inventory, equipment/assets and supplier procurement
+- Multi-branch / franchise support
+- Customer portal for bookings, complaints and feedback
+- AI-assisted scheduling/analytics hooks (optional)
+- Module manager so each company enables only needed modules
 
-### Admin / Filament resources
+### Detailed modules from product specification
 
-- Asset
-- Attendance Log
-- Booking
-- Branch
-- Cleaning Job
-- Contract
-- Customer
-- Employee
-- Expense
-- Inspection
-- Inventory Item
-- Invoice
-- Lead
-- Payment
-- Quotation
-- Service
-- Subscription Plan
-- Supplier
-- Support Ticket
-- Tenant Module
+- **Dashboard and Business Intelligence**
+- **CRM Module**
+- **Service Catalog**
+- **Booking and Reservation Module**
+- **Advanced Scheduling and Dispatch**
+- **Employee and Workforce Management**
+- **Attendance Management**
+- **Cleaning Job Execution**
+- **Quality Inspection and Quality Assurance**
+- **Customer Portal**
+- **Contract Management**
+- **Quotation and Estimation**
+- **Invoicing and Billing**
+- **Payment Management**
+- **Inventory Management**
+- **Equipment and Asset Management**
+- **Procurement and Suppliers**
+- **HR and Leave Management**
+- **Payroll and Compensation**
+- **Expense Management**
+- **Communication and Notifications**
+- **Complaints and Support Tickets**
+- **Multi-Branch Management**
+- **Franchise Management**
+- **Marketing and Sales**
+#### Reports and Analytics
 
-### Domain models
+- AI-POWERED FEATURES
+- AUTOMATION ENGINE
+- MAPS AND LOCATION MANAGEMENT
+- DOCUMENT MANAGEMENT
+- MULTILINGUAL SYSTEM
+- SUBSCRIPTION AND SAAS BILLING
+- API AND THIRD-PARTY INTEGRATIONS
+- DATABASE ARCHITECTURE
+- DEMO ACCOUNT AND SAMPLE DATA
+- UI/UX DESIGN REQUIREMENTS
+- SECURITY REQUIREMENTS
+- TESTING AND QUALITY ASSURANCE
+- PERFORMANCE REQUIREMENTS
+- README AND DOCUMENTATION
+- DEVELOPMENT WORKFLOW
+
+### Admin screens (Filament resources)
+
+- Asset management
+- Attendance Log management
+- Booking management
+- Branch management
+- Cleaning Job management
+- Contract management
+- Customer management
+- Employee management
+- Expense management
+- Inspection management
+- Inventory Item management
+- Invoice management
+- Lead management
+- Payment management
+- Quotation management
+- Service management
+- Subscription Plan management
+- Supplier management
+- Support Ticket management
+- Tenant Module management
+
+### Domain data models
 
 - Ai Usage Log
 - Asset
@@ -119,107 +164,19 @@
 - Quotation Item
 - Recurring Booking
 - Schedule
-
-### HTTP / API controllers
-
-- Auth APIs & screens
-- Booking APIs & screens
-- Customer APIs & screens
-- Inspection APIs & screens
-- Invoice APIs & screens
-- Job APIs & screens
-- Marketing APIs & screens
-- Portal APIs & screens
-- Service APIs & screens
-
-### Detailed feature requirements delivered
-
-- APPLICATION IDENTITY
-- REQUIRED TECHNOLOGY STACK
-- REQUIRED CUSTOM PACKAGES
-- PACKAGE INTEGRATION RULES
-- COMPLETE MODULAR SYSTEM
-- USER TYPES AND ROLE MANAGEMENT
-- SAAS AND MULTI-TENANCY ARCHITECTURE
-- PUBLIC WEBSITE AND MARKETING PAGES
-- CORE BUSINESS MODULES
-- Below 70: Failed.
-- AI-POWERED FEATURES
-- AUTOMATION ENGINE
-- MAPS AND LOCATION MANAGEMENT
-- DOCUMENT MANAGEMENT
-- MULTILINGUAL SYSTEM
-- SUBSCRIPTION AND SAAS BILLING
-- API AND THIRD-PARTY INTEGRATIONS
-- DATABASE ARCHITECTURE
-- DEMO ACCOUNT AND SAMPLE DATA
-- Email: superadmin@cleaningdemo.test
-- Password: Demo@12345
-- Email: owner@cleaningdemo.test
-- Email: operations@cleaningdemo.test
-- Email: branch@cleaningdemo.test
-- Email: inspector@cleaningdemo.test
-- Email: supervisor@cleaningdemo.test
-- Email: cleaner@cleaningdemo.test
-- Email: accountant@cleaningdemo.test
-- Email: customer@cleaningdemo.test
-- UI/UX DESIGN REQUIREMENTS
-- Primary: Deep Navy Blue.
-- Secondary: Teal.
-- Accent: Emerald.
-- Background: Soft Light Gray.
-- Cards: White.
-- Text: Dark Slate.
-- Warnings: Amber.
-- Errors: Red.
-- SECURITY REQUIREMENTS
-- TESTING AND QUALITY ASSURANCE
-- PERFORMANCE REQUIREMENTS
-- README AND DOCUMENTATION
-- DEVELOPMENT WORKFLOW
-- PHASE 1: Repository and requirements audit.
-- PHASE 2: Architecture and database design.
-- PHASE 3: Authentication and multi-tenancy.
-- PHASE 4: Roles and permissions.
-- PHASE 5: Module management engine.
-- PHASE 6: Public website and CMS.
-- PHASE 7: CRM and service catalog.
-- PHASE 8: Booking and scheduling.
-- PHASE 9: Employee and attendance management.
-- PHASE 10: Job execution and mobile workflows.
-- PHASE 11: Quality inspection and corrective actions.
-- PHASE 12: Customer portal and contracts.
-- PHASE 13: Quotations, invoicing and payments.
-- PHASE 14: Inventory, procurement and assets.
-- PHASE 15: HR, payroll and expenses.
-- PHASE 16: AI and automation.
-- PHASE 17: Reports and analytics.
-- PHASE 18: SaaS subscriptions.
-- PHASE 19: API and integrations.
-- PHASE 20: Demo data and demo accounts.
-- PHASE 21: Testing and security audit.
-- PHASE 22: Performance optimization.
-- PHASE 23: Documentation.
-- PHASE 24: Production deployment preparation.
-- CRITICAL DEVELOPMENT RULES
-- FINAL INSTRUCTION TO THE AI AGENT
-
-### Platform capabilities
-
-- Multi-role ready structure for operators, managers and admins
-- Database migrations and seeders for demo-ready local setup
-- Laravel architecture with services/controllers/models separation
-- Responsive UI foundation (Blade / Filament where enabled)
-- Environment-based config for local and production databases
-- GitHub-ready documentation with visual product previews
+- Schedule Assignment
+- Service
+- Service Addon
+- Service Category
+- Service Package
 
 ## Tech stack
 
 - PHP 8.2+ / Laravel
-- Filament admin resources (where enabled)
+- Filament admin (where enabled)
+- Migrations, seeders, queues
 - Vite asset pipeline
-- SQLite/MySQL-ready database layer
-- Migrations, seeders, and test-ready structure
+- MySQL / SQLite ready
 
 ## Quick start
 
@@ -234,27 +191,22 @@ npm install && npm run build
 php artisan serve
 ```
 
-## Repository
+## Author
 
-- GitHub: https://github.com/imranbru99/cleaning-janitorial-service-software
-- Developer: **Imran Ahmed** · https://imrandev.bd
+**Imran Ahmed** · https://imrandev.bd · me@imrandev.bd  
+GitHub: https://github.com/imranbru99/cleaning-janitorial-service-software
 
 ---
-
 ## 🤝 Let's Connect & Collaborate
 
 I am open to **Senior Remote Full-Stack Roles**, AI Platform Architecture Contracts, and Enterprise Technical Advisory.
 
-**Timezone:** UTC+6 (Dhaka / Rangpur, Bangladesh) — flexible overlap with US, UK & EU hours.  
-**Delivery:** Async-ready · Slack · Discord · Jira · GitHub · production-first accountability.
+| Channel | Link |
+| :--- | :--- |
+| Portfolio | https://imrandev.bd |
+| GitHub | https://github.com/imranbru99 |
+| LinkedIn | https://linkedin.com/in/imranbru99 |
+| Email | me@imrandev.bd |
+| WhatsApp | https://wa.me/8801576918420 |
+| Packagist | https://packagist.org/packages/imrandevbd/ |
 
-| Channel | Handle | Link |
-| :--- | :--- | :--- |
-| Portfolio | imrandev.bd | https://imrandev.bd |
-| Packagist | imrandevbd | https://packagist.org/packages/imrandevbd/ |
-| LinkedIn | imranbru99 | https://linkedin.com/in/imranbru99 |
-| GitHub | imranbru99 | https://github.com/imranbru99 |
-| WhatsApp | +880 1576-918420 | https://wa.me/8801576918420 |
-| Email | me@imrandev.bd | mailto:me@imrandev.bd |
-| X | @imrandev_bd | https://x.com/imrandev_bd |
-| YouTube | @ImranDevBD | https://youtube.com/@ImranDevBD |
