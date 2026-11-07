@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Enums;
+
+enum InvoiceStatus: string
+{
+    case Draft = 'draft';
+    case Unpaid = 'unpaid';
+    case PartiallyPaid = 'partially_paid';
+    case Paid = 'paid';
+    case Overdue = 'overdue';
+    case Cancelled = 'cancelled';
+    case Refunded = 'refunded';
+
+    public function label(): string
+    {
+        return match ($this) {
+            self::Draft => 'Draft',
+            self::Unpaid => 'Unpaid',
+            self::PartiallyPaid => 'Partially Paid',
+            self::Paid => 'Paid',
+            self::Overdue => 'Overdue',
+            self::Cancelled => 'Cancelled',
+            self::Refunded => 'Refunded',
+        };
+    }
+}
